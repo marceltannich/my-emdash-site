@@ -6,18 +6,25 @@
 	"compatibility_flags": [
 		"nodejs_compat"
 	],
+	"kv_namespaces": [
+		{
+			"binding": "SESSION",
+			"id": "2c1bf45ae75a4e828c998cd0efe2a4d1"
+		}
+	],
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_name": "my-emdash-site","database_id": "fc8b319f-5bde-49e3-bf21-37da8bef9e15",
-			// Run `wrangler d1 create my-emdash-site` and paste the ID here
-		},
+			"database_name": "my-emdash-site",
+			"database_id": "fc8b319f-5bde-49e3-bf21-37da8bef9e15"
+		}
 	],
 	"r2_buckets": [
 		{
 			"binding": "MEDIA",
-			"bucket_name": "my-emdash-media","preview_bucket_name": "my-emdash-media",
-		},
+			"bucket_name": "my-emdash-media",
+			"preview_bucket_name": "my-emdash-media"
+		}
 	],
 	"observability": {
 		"enabled": true,
